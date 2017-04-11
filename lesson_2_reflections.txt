@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize the repository, that is the time when the .git folder containing the
+metadata is created. This needs to be done so that you can track files that are together.
+This also shows you the recent commit made in the repository. This helps in version control.
+If you have not cloned a repository in your system, you need to initialize the repository.
+
+How is the staging area different from the working directory and repository. What value do
+you think it offers?
+
+Working directory is a normal directory that doesnt not contain any files under the version
+control tracking repository. It has an empty repository initialized, with no last committed 
+files and all its contents listed under the untracked files. While files added to the repo
+sitory are tracked together. They have version control system employed and different versions
+of files committed. The staging area is an intermediate region, which gives us the provision 
+to combine and commit the files that are logically related and so can easily be tracked. 
