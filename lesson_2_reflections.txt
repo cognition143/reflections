@@ -13,4 +13,49 @@ control tracking repository. It has an empty repository initialized, with no las
 files and all its contents listed under the untracked files. While files added to the repo
 sitory are tracked together. They have version control system employed and different versions
 of files committed. The staging area is an intermediate region, which gives us the provision 
-to combine and commit the files that are logically related and so can easily be tracked. 
+to combine and commit the files that are logically related and so can easily be tracked by 
+committing them.
+
+How can you make use the staging area to make sure you have onecommit per logic change?
+
+Once you have made changes to the files in working directory, you can add them to the 
+staging area for the purpose of committing them. Just to make sure that the staging area 
+contains files with modification contains one logical change per commit, you can use the 
+command git diff -staged that will ensure the same before commit. 
+
+What are some situations when branches would be helpful in 	keeping your history organized?
+How would branches help?
+
+The role of branches comes into picture when you have to make some huge additional change
+but you are not sure of its impact in the code. so to avoid breaking your code, you might want 
+o keep a copy of your record intact and make your contribution. There are scenarios where the 
+code can be improved by including modification and the it can be decided if it will work well 
+along with the existing code. You can create a branch out of the master code and then impelement
+the feature to see its total compatibility. Branch can be created when you are working on something
+new, like a context switching. We can also create branch while fixing a bug. Master branch is 
+something that always work, then you have an active branch which has the development work going on
+and finally an experimental branch to try out stuhhs or unique feature branch under production.
+if we get bored working on a particular feature, we can create another branch and work on the 
+new feature.
+
+How does the diagram help you to visualize  the branch structure ?
+
+Verbal dictation of such complex yest interesting topics is a brain eater. The pictorial 
+representation of the diagram helps in better understanding and clear visualization of the
+function of the branch structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches would contain the updated version of code or any piece of information after the
+modification that they go through. Mostly the master branch would be updated with the diversion in the 
+code. This might include the addition of code that is not present in the master and removal of code in 
+it. This totally depend upon the comparison between two diverging branches and their parent. The diagramatic
+representation of the merging would help in the clarity and better understanding of the content. 
+
+What are the pros and cons of git automatic merging Vs always doing merges manually?
+
+Automatic merging is something that proves easy to the users. Evrytime working manually on a merge can be
+tedious. to avoid the redundancy and time, automatic merging can be helpful. But it can also cause bugs at
+the same time., which can be very overwhelming. Manual merge takes a lot of time and effort, but it minimises
+the possibility of introducing new bugs. You can evaluate the changes and it reduces the possibility of 
+skipping any new changes.
