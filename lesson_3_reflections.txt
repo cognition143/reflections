@@ -5,3 +5,11 @@ to store. It is important to have the remote repository as we choose when to pus
 pull rather than github doing it. The remote repository alias name helps us in not 
 memorizing the entire url to the repository.
 
+Why might you want to always pull changes manually rather than having git automatically
+stay up-to-date with your remote repository?
+
+Automatic updation by the github with remote repository can result in erroneous data
+updation. If a commoner user of a github repository  is uploading the data to the github
+while the updation is going on, incomplete data is supplied to the remote repository. 
+This can make no sense to the other people using this data from the local repository.
+So it is always good to have manual updation for data. 
