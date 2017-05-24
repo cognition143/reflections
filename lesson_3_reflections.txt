@@ -1,1 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repository maily deals with thelocation of the github, ie where to store and how 
+to store. It is important to have the remote repository as we choose when to push or 
+pull rather than github doing it. The remote repository alias name helps us in not 
+memorizing the entire url to the repository.
+
