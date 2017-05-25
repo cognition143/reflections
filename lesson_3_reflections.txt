@@ -13,3 +13,25 @@ updation. If a commoner user of a github repository  is uploading the data to th
 while the updation is going on, incomplete data is supplied to the remote repository. 
 This can make no sense to the other people using this data from the local repository.
 So it is always good to have manual updation for data. 
+
+Describe the difference between fork, clone and branches. When would you use one instead
+of another?
+
+Cloning is a feature that is more than copying a folder. The process of cloning is used 
+when you have to copy a set of related files along with their histroy from the time the 
+repository was initialized. It shows the list of all commits made to different files at
+different time intervals. Cloning is done from a specified URL mentioned which can contain
+a common project that a group of people working on. Works of different people can be found
+in them. You can also clone from folder to folder. It doesnt have to be between URL and 
+local computer.
+
+Branch, as the name suggests, is a separate path derived from tha main code base where 
+you can make your own code changes and try out experimenting features in code. When you
+are not sure if your new code is to be implemented along the main stream code, you create
+a branch. Also, when you have to work under multiple code development, you can have 
+different branches and can be merged together finally.
+
+Fork is a feature that is much similar to cloning,except that forking is done between
+githubs. Forking is done from one URL to another. A forked code will have reference to
+original code that was cloned. This is used when you have to make some changes to the
+code base someone else owns and they do not want their code modified.  
