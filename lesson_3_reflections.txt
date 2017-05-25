@@ -35,3 +35,11 @@ Fork is a feature that is much similar to cloning,except that forking is done be
 githubs. Forking is done from one URL to another. A forked code will have reference to
 original code that was cloned. This is used when you have to make some changes to the
 code base someone else owns and they do not want their code modified.  
+
+What is the benifit of having a copy of last knwon state of remote stored locally?
+
+The idea of storing the last known state of remote will help you get to know which was 
+the submit that was last synced with the local. If a number of code modifications are done
+to the github repository while you were offline or parallely working on a new commit, 
+syncing your code changes would create problems. To work on a latest code base developed 
+by the team, it is important to sync the changes and to know what is to be synced. 
