@@ -43,3 +43,17 @@ the submit that was last synced with the local. If a number of code modification
 to the github repository while you were offline or parallely working on a new commit, 
 syncing your code changes would create problems. To work on a latest code base developed 
 by the team, it is important to sync the changes and to know what is to be synced. 
+
+How would you collaborate without using git or github? What would be easier and what 
+would be harder?
+
+Git and Github are excellent tools for version control and storage and collaboration.
+As we know Git helps in comparing and saving different versions of the same code. This 
+helps in the error detection process and helps in reverting changes back to error free 
+codes. When used with Github, this helps in sharing the codes with other people who may 
+belong to the same project but working at different places geographically. This can also
+ be used to clone the code and make local modification for your own use. If the changes 
+ are good enough,it can be shared across the world. These tools helps in merging the codes
+ that might have been modified by people across the world in a better way, without causing 
+ any errors. Harder part would be to keep track of changes made by others and sharing of 
+ huge chunks of files. 
