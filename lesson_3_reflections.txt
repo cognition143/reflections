@@ -57,3 +57,16 @@ belong to the same project but working at different places geographically. This 
  that might have been modified by people across the world in a better way, without causing 
  any errors. Harder part would be to keep track of changes made by others and sharing of 
  huge chunks of files. 
+
+ When would you want to make changes in a separate branch rather than direclty in master?
+ What benifits does each approach have?
+
+ Most of the changes that we make to our code goes intp master as long as we are sure 
+ of the code changes that we make. For example, a code base which have been tested 
+ thoroughly can be used for making small code modification. When we have to implement
+ a new feature or experiment a new code, we go for the branches as we do not want the
+ functioning code to be affected by the changes. Also, when you want to start multiple 
+ projects at the same time, we go for the branches. It is always easier to use the
+ master for code change as it doesnt have to be merged at the end of the day. But 
+ ath the same time it is not worth the risk if introducing ahuge chunk of code and 
+ hamper their functionality.
